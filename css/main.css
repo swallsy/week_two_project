@@ -1,0 +1,77 @@
+
+* {
+  color: #0B1942;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans';
+}
+
+h1 {
+  font-size: 38px;
+}
+
+
+h2 {
+  font-size: 28px;
+}
+
+#home {
+  background-color: #00A5BF;
+}
+
+#calendar {
+  background-color: #00B7D3;
+}
+
+#join {
+  background-color: #00D5E7;
+}
+
+
+header {
+  height: 7em;
+  background-color: rgba(125,	223,	232, .9);
+  width: 100%;
+  position: fixed;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-content: center;
+  height: 7em;
+}
+
+#icon {
+  width: 6em;
+  background-color: #F5005B;
+  padding: .5em;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+nav a {
+  width: 6em;
+  line-height: 7em;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+
+span {
+  color: white;
+}
+
+
+footer {
+  height: 7em;
+  background-color: #7DDFE8;
+  width: 100%;
+}
+
+#copyright {
+  float: right;
+  line-height: 7em;
+  padding-right: 2em;
+}

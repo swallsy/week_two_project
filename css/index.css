@@ -1,0 +1,297 @@
+p {
+  font-size: 1.2em;
+}
+
+li {
+  font-size: 1em;
+}
+
+a {
+  color: #00A5BF;
+  font-size: 18px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* Get Involved Section Styling */
+
+  #get-involved {
+    padding-top: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    max-width: 1400px;
+  }
+
+
+  .involved-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+   }
+
+  .involved-section h2 {
+    background-color: #0B1942;
+    color: white;
+    padding: 10px 0px 10px 20px;
+  }
+
+  .get_involved_content {
+      display: flex;
+      flex-direction: column;
+      width: 33.33%;
+      padding: 10px;
+  }
+
+  .get_involved_content p {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  /* Up Next Section (movies coming up) */
+
+  #up-next {
+    padding-top: 5em;
+    background-color: #0B1942;
+    margin-top: 5em;
+  }
+
+  #up-next h2 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 85%;
+    text-align: left;
+    max-width: 1400px;
+  }
+
+  #up-next-content {
+    display: flex;
+    margin-top: 20px;
+    width: 85%;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+    max-width: 1400px;
+  }
+
+
+  /* Featured Movie Information */
+
+  .featured {
+    width: 50%;
+    background-color: #E2E2E2;
+    display: inline-block;
+    display: flex;
+    margin: 0px 10px 10px 0px;
+  }
+
+  .featured img {
+    width: 45%;
+    height: 50%;
+    margin: 20px;
+  }
+
+  .feature p {
+    font-size: 14px;
+  }
+
+
+  .featured ul {
+    list-style-type: circle;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+
+  .featured a {
+    font-size: 2em;
+  }
+
+  .featured-copy {
+    margin-top: 20px;
+    width: 45%;
+  }
+
+  /*/////// Upcoming section ///// */
+
+  .upcoming {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #E2E2E2;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    margin: 0px 10px 10px 50px;
+    padding-top: 10px;
+  }
+
+  .upcoming p {
+      font-size: 18px;
+  }
+  .upcoming-movie {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 10px;
+    box-sizing: border-box;
+
+  }
+
+  .upcoming-movie img {
+    width: 100%;
+  }
+
+  .upcoming-copy {
+    padding-top: 10px;
+  }
+
+
+
+
+  /*/////// TABLET SPECIFICATIONS ///// */
+
+  @media screen and (min-device-width: 545px) and
+ (max-device-width: 768px) {
+
+   #up-next-content {
+     flex-direction: column;
+   }
+
+   .featured {
+     width: 85%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .upcoming {
+     width: 85%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+   }
+
+   .upcoming-movie {
+     display: flex;
+     flex-direction: column;
+     width: 25%;
+     box-sizing: border-box;
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+
+   #movie-2, #movie-4 {
+     margin-left: 0px;
+   }
+
+  .upcoming-movie img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+ }
+
+ @media screen and (max-device-width: 544px) {
+
+   header {
+     background-color: white;
+     display: flex;
+   }
+
+   #icon {
+     width: 6em;
+     height: 105px;
+   }
+
+   nav {
+      flex-direction: column;
+      flex: 3;
+   }
+
+   nav a {
+     height: 35px;
+     width: auto;
+     line-height: 35px;
+   }
+
+   .involved-section {
+     flex-direction: column;
+     padding-top: 20px;
+   }
+
+   .get-involved h2 {
+     margin-top: 20px;
+   }
+
+   .get_involved_content {
+     width: 100%;
+ }
+
+  .involved-section h2 {
+    line-height: 35px;
+    box-sizing: border-box;
+    padding: 5px 0px 5px 10px;
+  }
+
+  #up-next-content {
+    flex-direction: column;
+  }
+
+  .featured {
+    width: 100%;
+  }
+
+  .upcoming {
+    width: 100%;
+    margin: 0;
+  }
+
+footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #7DDFE8;
+  height: auto;
+}
+
+footer a {
+  height: 35px;
+}
+
+#copyright {
+  float: none;
+  background-color: #7DDFE8;
+  line-height: 60px;
+}
+
+a {
+  font-size: 1rem;
+}
+
+.upcoming p {
+  font-size: 1em;
+}
+
+.upcoming a {
+  font-size: 1em;
+}
+
+.featured a {
+  font-size: 1.5em;
+}
+
+.featured p {
+  font-size: 1em;
+}
+.featured li {
+  font-size: .75em;
+}
+
+#up-next {
+  padding-top: 1em;
+  margin-top: 1em;
+}
