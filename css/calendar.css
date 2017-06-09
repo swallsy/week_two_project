@@ -47,16 +47,10 @@ td {
   font-weight: bold;
   color: white;
   background-color: #0B1942;
-  width: 40%;
-  height: 40%;
+  width: 35px;
+  height: 35px;
   top: 0px;
   left: 0px;
   padding-top: 5%;
   box-sizing: border-box;
-}
-
-@media screen and (min-device-width: 545px) and
-(max-device-width: 768px) {
-
-
 }
