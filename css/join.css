@@ -1,0 +1,185 @@
+/* ///// MOBILE ////// */
+
+
+/* ///// Main/Wrapper Section ////// */
+
+#main {
+  padding-top: 8em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#main img {
+  border-radius: 50%;
+  width: 100%;
+  margin-left: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+br {
+  display: none;
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+label {
+  font-size: .75em;
+}
+
+/* ///// PICTURE SUBMIT ////// */
+
+#pic-submit {
+  padding: 3px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+/* ///// PICTURE SUBMIT ////// */
+
+#information {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.info-field {
+  display: flex;
+  flex-direction: column;
+}
+
+#information input {
+  height: 30px;
+  border: solid .5px #eee;
+  margin-bottom: 10px;
+}
+
+#information input:focus {
+  background: color: white;
+   border: none;
+}
+
+
+/* ///// Questions (Radio Buttons) ////// */
+
+#questions {
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+}
+
+#questions p {
+  padding-bottom: 30px;
+}
+
+#questions input {
+  display: inline;
+  background-color: white;
+  border: solid #eee;
+}
+
+#questions label {
+  margin-top: 10px;
+}
+
+
+/* ///// Additional Comments ////// */
+
+#additional {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#additional textarea {
+  height: 100px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border: solid .5px gray;
+}
+
+
+button {
+  text-align: center;
+  background-color: #F5005B;
+  width: 120px;
+  height: 50px;
+  margin-bottom: 40px;
+  border: none;
+  color: white;
+}
+
+/* ///// TABLET ////// */
+
+@media screen and (min-device-width: 545px) {
+
+  h2 {
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: normal;
+  }
+
+  #container {
+    display: flex;
+  }
+
+  #main img  {
+    width: 100%;
+  }
+
+  #profile-pic {
+    width: 50%;
+  }
+
+  #information {
+    width: 70%;
+  }
+
+  #information input {
+    margin-bottom: 20px;
+  }
+
+  .questions-inputs {
+    columns: auto 2;
+    display: block;
+  }
+
+
+  label {
+    font-size: 1em;
+    display: block;
+  }
+
+}
+
+@media screen and (min-device-width: 769px) {
+
+  p {
+    font-size: 1em;
+  }
+  .info-field {
+    width: 100%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+  }
+
+  #information {
+    width: 100%;
+    columns: auto 2;
+    display: block;
+  }
+
+  .questions-inputs {
+    columns: auto 2;
+  }
+
+  label {
+    font-size: 1em;
+  }
+
+}

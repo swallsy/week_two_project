@@ -10,58 +10,87 @@
   </head>
   <body>
     <header>
+      <img src="images/filmclub.png" alt ="film club icon" id="icon">
       <nav>
-        <img src="images/filmclub.png" alt ="film club icon" id="icon">
         <a href="index.html" id="home"><span>Home</span></a>
-        <a href="calendar.html" id="calendar"><span>Calendar</span></a>
+        <a href="calendar.html" id="calendar_nav"><span>Calendar</span></a>
         <a href="join.html" id="join"><span>Join</span></a>
       </nav>
     </header>
 
     <section id="main">
       <h2>Join Film Club</h2>
+
       <form>
-        <div id="profile-pic">
-          <p>profile picture</p>
-          <input type="submit" name="picture">Choose File</input>
-          <label for="">No file chosen</label>
-          <img src="images/profile-placeholder">
+
+        <div id="container">
+
+          <div id="profile-pic">
+            <p>profile picture</p>
+            <input type="file" id="pic-submit" value="Choose File">
+            <img src="images/profile-placeholder.png">
+          </div>
+
+          <div id="information">
+
+            <div class="info-field">
+              <label for="name">name</label>
+              <input type="text" name="name">
+            </div>
+
+            <div class="info-field">
+              <label for="email">email address</label>
+              <input type="text" name="email">
+            </div>
+
+            <div class="info-field">
+              <label for="password">password</label>
+              <input type="text" name="password">
+            </div>
+
+            <div class="info-field">
+              <label for ="confirm-password"> confirm password</label>
+              <input name="for-password" type="text">
+            </div>
+          </div>
+
         </div>
-        <div id="information">
-          <label for="name">name</label>
-          <input type=text name="name"></input>
-          <label for="email">email address</label>
-          <input type="text" name="email"></input>
-          <label for="password">password</label>
-          <input type="text" name="password"></input>
-          <label for ="confirm-password"> confirm password</label>
-          <input name="for-password" type="text"></input>
-        </div>
+
         <div id="questions">
-          <input type="radio">action</input>
-          <input type="radio">adventure</input>
-          <input type="radio">comedy</input>
-          <input type="radio">drama</input>
-          <input type="radio">fantasy</input>
-          <input type="radio">historical</input>
-          <input type="radio">horror</input>
-          <input type="radio">mystery</input>
-          <input type="radio">romance</input>
-          <input type="radio">science fiction</input>
-          <input type="radio">western</input>
+
+          <p>Which genres are you interested in?</p>
+
+          <div class="questions-inputs">
+            <label><input type="radio" name="genre">action</label>
+            <label><input type="radio" name="genre">adventure</label>
+            <label><input type="radio" name="genre">comedy</label>
+            <label><input type="radio" name="genre">drama</label>
+            <label><input type="radio" name="genre">fantasy</label>
+            <label><input type="radio" name="genre">historical</label>
+            <label><input type="radio" name="genre">horror</label>
+            <label><input type="radio" name="genre">mystery</label>
+            <label><input type="radio" name="genre">romance</label>
+            <label><input type="radio" name="genre">science fiction</label>
+            <label><input type="radio" name="genre">western</label>
+          </div>
+
         </div>
+
         <div id="additional">
           <label for="feedback">Additional input</label>
-          <input type="text" name="feedback"></input>
+          <textarea name="feedback"></textarea>
+          <button>Join Film Club</button>
+        </div>
+
       </form>
     </section>
     <footer>
-      <span id="copyright">&copy; 2017, Film Club</span>
       <nav>
         <a href="index.html" id="home"><span>Home</span></a>
-        <a href="#" id="calendar"><span>Calendar</span></a>
+        <a href="#" id="calendar_nav"><span>Calendar</span></a>
         <a href="join.html" id="join"><span>Join</span></a>
       </nav>
+          <span id="copyright">&copy; 2017, Film Club</span>
     </footer>
   </body>
 </html>

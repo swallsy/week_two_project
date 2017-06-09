@@ -19,7 +19,7 @@ h2 {
   background-color: #00A5BF;
 }
 
-#calendar {
+#calendar_nav {
   background-color: #00B7D3;
 }
 
@@ -29,17 +29,18 @@ h2 {
 
 
 header {
-  height: 7em;
+  height: 6em;
   background-color: rgba(125,	223,	232, .9);
   width: 100%;
   position: fixed;
   display: flex;
+  z-index: 10;
 }
 
 nav {
   display: flex;
   align-content: center;
-  height: 7em;
+  height: 6em;
 }
 
 #icon {
@@ -53,7 +54,7 @@ nav {
 
 nav a {
   width: 6em;
-  line-height: 7em;
+  line-height: 6em;
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
@@ -65,13 +66,66 @@ span {
 
 
 footer {
-  height: 7em;
+  height: 6em;
   background-color: #7DDFE8;
   width: 100%;
 }
 
+footer nav {
+  float: left;
+}
+
 #copyright {
   float: right;
-  line-height: 7em;
+  line-height: 6em;
   padding-right: 2em;
+}
+
+ @media screen and (max-device-width: 544px) {
+
+   #copyright {
+     float: none;
+     background-color: #7DDFE8;
+     line-height: 60px;
+     padding-right: 0;
+   }
+
+  header {
+    background-color: white;
+    display: flex;
+  }
+
+  #icon {
+    width: 6em;
+    height: 105px;
+  }
+
+  nav {
+     flex-direction: column;
+     flex: 3;
+  }
+
+  nav a {
+    height: 35px;
+    width: auto;
+    line-height: 35px;
+  }
+
+  footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #7DDFE8;
+    height: auto;
+  }
+
+  footer a {
+    height: 35px;
+  }
+
+  footer nav {
+    float:none;
+  }
+
 }
