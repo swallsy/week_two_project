@@ -87,6 +87,11 @@ flex-direction: column;
   margin-top: 10px;
 }
 
+.questions-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* ///// Additional Comments ////// */
 
